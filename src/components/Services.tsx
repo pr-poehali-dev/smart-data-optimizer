@@ -3,92 +3,92 @@ import Icon from "@/components/ui/icon"
 
 const categories = [
   { id: "all", label: "Все" },
-  { id: "thermal", label: "Тепловое" },
-  { id: "cold", label: "Холодильное" },
-  { id: "tech", label: "Технологическое" },
-  { id: "neutral", label: "Нейтральное" },
+  { id: "dumpling", label: "Пельмени и дим-сам" },
+  { id: "bun", label: "Пирожки и булочки" },
+  { id: "dough", label: "Тесто и выпечка" },
+  { id: "other", label: "Прочее" },
 ]
 
 const products = [
   {
     id: 1,
-    category: "thermal",
-    title: "Пароконвектомат Rational SCC 61",
-    description: "6 уровней GN 1/1, 6 режимов приготовления, автоматическая мойка, сенсорное управление.",
-    price: "от 285 000 ₽",
+    category: "dumpling",
+    title: "Автомат для пельменей CT-JZ200",
+    description: "Производительность 200 шт/мин. Автоматическое формование, регулировка веса начинки, нержавеющая сталь.",
+    price: "от 185 000 ₽",
     badge: "Хит продаж",
-    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/13132407-3a2a-4f31-b162-b1dbc71360a4.jpg",
-    icon: "Flame",
+    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/f1050777-fb0a-4527-af2e-42ab86e8e009.jpg",
+    icon: "Utensils",
   },
   {
     id: 2,
-    category: "thermal",
-    title: "Плита индукционная 4-конф.",
-    description: "Мощность 14 кВт, стеклокерамика, 4 конфорки, программируемые режимы, нержавеющий корпус.",
-    price: "от 68 000 ₽",
+    category: "dumpling",
+    title: "Машина для шаомай CT-SM100",
+    description: "Производительность 100 шт/мин. Формование открытого дим-сама, регулируемый размер, лёгкая очистка.",
+    price: "от 210 000 ₽",
     badge: null,
-    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/13132407-3a2a-4f31-b162-b1dbc71360a4.jpg",
-    icon: "Flame",
+    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/a624d396-db45-4244-9a24-808433ea05a7.jpg",
+    icon: "Utensils",
   },
   {
     id: 3,
-    category: "cold",
-    title: "Шкаф холодильный ШХ-1.4",
-    description: "Объём 1400 л, температура от 0 до +8°C, принудительное охлаждение, нержавеющая сталь.",
-    price: "от 95 000 ₽",
+    category: "bun",
+    title: "Автомат для пирожков CT-BZ120",
+    description: "Производительность 120 шт/мин. Подходит для баоцзы, пирожков, булочек с начинкой. Сенсорное управление.",
+    price: "от 240 000 ₽",
     badge: "В наличии",
-    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/eb4fe67d-6eea-4a84-8751-d048925061e3.jpg",
-    icon: "Snowflake",
+    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/fcfca6a3-f7bc-463a-beea-243c65ed4526.jpg",
+    icon: "ChefHat",
   },
   {
     id: 4,
-    category: "cold",
-    title: "Стол холодильный СХС-70-01",
-    description: "Охлаждаемая поверхность для работы, 2 секции, объём 280 л, класс климата N.",
-    price: "от 54 000 ₽",
-    badge: null,
-    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/eb4fe67d-6eea-4a84-8751-d048925061e3.jpg",
-    icon: "Snowflake",
+    category: "bun",
+    title: "Машина для лунных пряников CT-YB80",
+    description: "Автоматическое формование с начинкой, 80 шт/мин. Пресс-формы в комплекте, быстрая замена матриц.",
+    price: "от 195 000 ₽",
+    badge: "Новинка",
+    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/dab8975a-f9b3-4304-8e38-86a2d31d1727.jpg",
+    icon: "ChefHat",
   },
   {
     id: 5,
-    category: "tech",
-    title: "Мясорубка МИМ-600",
-    description: "Производительность 600 кг/ч, ножи из закалённой стали, реверс, защита от перегрева.",
-    price: "от 42 000 ₽",
+    category: "dough",
+    title: "Тестораскаточная машина CT-DR500",
+    description: "Ширина раскатки 500 мм, регулировка толщины 0.5–5 мм, производительность 80 кг/ч, нержавеющая сталь.",
+    price: "от 98 000 ₽",
     badge: null,
-    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/e15c2fb9-ecec-4b25-9981-d56c1d898caa.jpg",
-    icon: "Cog",
+    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/f4e52521-233d-4654-8b02-fef77040c500.jpg",
+    icon: "Layers",
   },
   {
     id: 6,
-    category: "tech",
-    title: "Тестомес спиральный ТС-20",
-    description: "Объём дежи 20 л, 2 скорости, нержавеющий спиральный крюк, таймер, защитный кожух.",
-    price: "от 38 000 ₽",
-    badge: "Новинка",
-    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/e15c2fb9-ecec-4b25-9981-d56c1d898caa.jpg",
-    icon: "Cog",
+    category: "dough",
+    title: "Машина для блинчиков CT-CR300",
+    description: "Тонкие блинчики для спринг-роллов, диаметр 180–250 мм, 300 шт/мин, равномерный прогрев.",
+    price: "от 145 000 ₽",
+    badge: null,
+    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/d8dc4ea0-5a8b-4bbb-85b2-d3c706747f7a.jpg",
+    icon: "Layers",
   },
   {
     id: 7,
-    category: "neutral",
-    title: "Стол производственный СП-1200",
-    description: "Столешница из нержавеющей стали 1,2 мм, полка снизу, регулируемые ножки, 1200×600×870 мм.",
-    price: "от 12 000 ₽",
+    category: "other",
+    title: "Машина для нарезки заготовок CT-YT150",
+    description: "Автоматическое формование заготовок для жарки, 150 шт/мин, регулировка длины и диаметра.",
+    price: "от 88 000 ₽",
     badge: "В наличии",
-    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/abb91879-3178-4da8-b3c3-1cba18c39b57.jpg",
-    icon: "LayoutGrid",
+    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/bc7dfb22-766e-4acb-ba35-9cdaf6495907.jpg",
+    icon: "Scissors",
   },
   {
     id: 8,
-    category: "neutral",
-    title: "Стеллаж кухонный СК-5",
-    description: "5 полок из нержавеющей стали, нагрузка до 150 кг, разборная конструкция, 1800×400×1800 мм.",
-    price: "от 18 000 ₽",
+    category: "other",
+    title: "Машина для нарезки кексов CT-CS200",
+    description: "Автоматическая нарезка рулетов и кексов, толщина 10–60 мм, производительность 200 резов/мин.",
+    price: "от 76 000 ₽",
     badge: null,
-    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/abb91879-3178-4da8-b3c3-1cba18c39b57.jpg",
-    icon: "LayoutGrid",
+    image: "https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/b8ae87a1-f79a42d6-be6e-47c10afac281.jpg",
+    icon: "Scissors",
   },
 ]
 
@@ -128,14 +128,14 @@ export function Services() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
-            Каталог
+            Shanghai Chengtao Intelligent Equipment
           </p>
           <h2
             className={`font-serif text-4xl md:text-5xl lg:text-6xl font-light text-foreground text-balance transition-all duration-1000 delay-200 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
           >
-            Категории оборудования
+            Каталог оборудования
           </h2>
         </div>
 
@@ -213,7 +213,7 @@ export function Services() {
           }`}
         >
           <p className="text-muted-foreground mb-6 text-sm">
-            Не нашли нужное? Поможем подобрать под ваши задачи.
+            Не нашли нужную модель? Поможем подобрать под ваш объём производства.
           </p>
           <a
             href="#contact"
