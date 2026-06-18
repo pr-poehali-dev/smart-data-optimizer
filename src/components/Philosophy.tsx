@@ -32,7 +32,7 @@ export function Philosophy() {
             }`}
           >
             <img
-              src="/minimalist-japanese-interior-design-with-natural-w.jpg"
+              src="https://cdn.poehali.dev/projects/19b8544a-0199-4a42-a82a-91468f04ee3e/files/2e30b1c4-19a2-45f0-8da1-8cee0a1218e5.jpg"
               alt="Профессиональная кухня с оборудованием"
               className="absolute inset-0 w-full h-full object-cover"
             />
