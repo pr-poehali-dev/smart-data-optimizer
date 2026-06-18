@@ -5,9 +5,10 @@ export function Footer() {
         <div className="grid md:grid-cols-12 gap-12">
           {/* Logo & Tagline */}
           <div className="md:col-span-4">
-            <p className="font-serif text-2xl tracking-wide text-foreground mb-4">ПродТех</p>
+            <p className="font-serif text-xl tracking-wide text-foreground mb-1">Shanghai Chengtao</p>
+            <p className="text-xs tracking-widest uppercase text-muted-foreground mb-4">Intelligent Equipment Co., Ltd</p>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Профессиональное оборудование для пищевой промышленности и общепита.
+              Производитель автоматического оборудования для пищевой промышленности. Пельменные машины, автоматы для пирожков, тестораскатки и многое другое.
             </p>
           </div>
 
@@ -30,18 +31,18 @@ export function Footer() {
             </nav>
           </div>
 
-          {/* Social */}
+          {/* Contacts */}
           <div className="md:col-span-2">
-            <p className="text-xs tracking-widest uppercase text-muted-foreground mb-4">Соцсети</p>
+            <p className="text-xs tracking-widest uppercase text-muted-foreground mb-4">Контакты</p>
             <nav className="flex flex-col gap-3">
-              <a href="#" className="text-sm text-foreground hover:text-sage transition-colors">
-                Instagram
+              <a href="tel:+8613524006802" className="text-sm text-foreground hover:text-sage transition-colors">
+                +86 135 2400 6802
               </a>
-              <a href="#" className="text-sm text-foreground hover:text-sage transition-colors">
-                Pinterest
+              <a href="mailto:chengtaogj@stmfood.com" className="text-sm text-foreground hover:text-sage transition-colors">
+                chengtaogj@stmfood.com
               </a>
-              <a href="#" className="text-sm text-foreground hover:text-sage transition-colors">
-                Telegram
+              <a href="https://www.stmfood.com" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground hover:text-sage transition-colors">
+                stmfood.com
               </a>
             </nav>
           </div>
@@ -63,9 +64,9 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-border flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-foreground">
-            &copy; {new Date().getFullYear()} ПродТех. Все права защищены.
+            &copy; {new Date().getFullYear()} Shanghai Chengtao Intelligent Equipment Co., Ltd. All rights reserved.
           </p>
-          <p className="text-xs text-muted-foreground">Поставка · Монтаж · Сервис</p>
+          <p className="text-xs text-muted-foreground">Shanghai, China · stmfood.com</p>
         </div>
       </div>
     </footer>

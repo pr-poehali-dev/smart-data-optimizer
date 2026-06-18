@@ -69,20 +69,24 @@ export function Contact() {
               }`}
             >
               <div>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Телефон</p>
-                <a href="tel:+78001234567" className="text-foreground hover:text-sage transition-colors">
-                  8 800 123-45-67
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">WhatsApp / Телефон</p>
+                <a href="tel:+8613524006802" className="text-foreground hover:text-sage transition-colors">
+                  +86 135 2400 6802
                 </a>
               </div>
               <div>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Почта</p>
-                <a href="mailto:info@prodteh.ru" className="text-foreground hover:text-sage transition-colors">
-                  info@prodteh.ru
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Email</p>
+                <a href="mailto:chengtaogj@stmfood.com" className="text-foreground hover:text-sage transition-colors">
+                  chengtaogj@stmfood.com
                 </a>
               </div>
               <div>
-                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Доставка</p>
-                <p className="text-foreground">По всей России</p>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Адрес</p>
+                <p className="text-foreground">No. 188, Xinyu Road, Shanghai, China</p>
+              </div>
+              <div>
+                <p className="text-xs tracking-widest uppercase text-muted-foreground mb-2">Контактное лицо</p>
+                <p className="text-foreground">Hayley</p>
               </div>
             </div>
           </div>

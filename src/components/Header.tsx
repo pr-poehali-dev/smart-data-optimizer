@@ -8,8 +8,9 @@ export function Header() {
       <nav className="mx-auto max-w-7xl px-6 lg:px-12">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <a href="/" className="font-serif text-2xl tracking-wide text-foreground">
-            ПродТех
+          <a href="/" className="flex flex-col leading-tight">
+            <span className="font-serif text-xl tracking-wide text-foreground">Shanghai Chengtao</span>
+            <span className="text-[10px] tracking-widest uppercase text-muted-foreground">Intelligent Equipment Co., Ltd</span>
           </a>
 
           {/* Desktop Navigation */}
